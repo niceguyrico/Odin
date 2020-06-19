@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Odin </title>
+    
+    <style>
+        h1 {
+            text-align: center;
+        }
+        #image {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 100%;           
+        }
+        #img-caption {
+            text-align: center;
+        }
+        #tribute-info {
+            display: block;
+            text-align: center;
+            padding: auto;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+   <div id="main">
+       <h1 id="title">Tribute to Odin</h1>
+       
+       <div id="img-div">
+           <img src="data:image/jpeg;base64,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" id="image">
+           <figcaption id="img-caption">All Father of Norse Gods</figcaption> <br>
+       </div>
+       
+       <br>
+       <div id="tribute-info">
+            Odin is a widely revered god in Germanic mythology. Norse mythology, the source of most surviving information about him, associates Odin with wisdom, healing, death, royalty, the gallows, knowledge, war, battle, victory, sorcery, poetry, frenzy, and the runic alphabet, and portrays him as the husband of the goddess Frigg. In wider Germanic mythology and paganism, the god was known in Old English and Old Saxon as Wōden, in Old Dutch as Wuodan, and in Old High German as Wuotan.
+       </div>
+       
+       <a href="https://en.wikipedia.org/wiki/Odin" id="tribute-link" target="_blank" >Odin</a>
+       
+       <script src=https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js></script>
+   </div>
+    
+</body>
+</html>
